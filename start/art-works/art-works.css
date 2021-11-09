@@ -232,4 +232,19 @@ ul.footer-list > li > img {
     display: block;
 }
 
+.bottom-footer {
+    background-color: #3A3A3A;
+    color: #777;
+  }
+.footer-bottom-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+    margin: 0px auto;
+  }
+.footer-bottom-inner > span {
+    padding: 15px 0px;
+    display: block;
+  }
+
 /* footer end */
